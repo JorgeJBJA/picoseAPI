@@ -25,7 +25,7 @@ function main() {
         app.use('/api/v1/empresa', empresaRoutesV1)
 
         app.listen(port, () => {
-            console.log(`Server on port ${port}`)
+            console.log(`Servidor en puerto ${port}`)
         })
     } catch (error) {
         console.error('Server error:', error);
